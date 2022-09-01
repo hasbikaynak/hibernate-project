@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd5cb8b1-df73-4f49-b18c-dc92f9b1efff" name="Changes" comment="" />
+    <list default="true" id="bd5cb8b1-df73-4f49-b18c-dc92f9b1efff" name="Changes" comment="add hibernate and postgresql dependencies">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EB9NdW8CO2YiNZJUQK3n2WLaBC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,6 +40,29 @@
       <option name="presentableId" value="Default" />
       <updated>1662058074339</updated>
     </task>
+    <task id="LOCAL-00001" summary="add hibernate and postgresql dependencies">
+      <created>1662058400599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662058400599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add hibernate and postgresql dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hibernate and postgresql dependencies" />
   </component>
 </project>

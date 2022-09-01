@@ -1,4 +1,5 @@
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -12,9 +13,8 @@ public class Question {
     @OneToOne(mappedBy = "question")
     private QuestionDetail questionDetail;
 
-    @OneToMany
-    @JoinColumn
-    private List<Answer> answerList;
+    @OneToMany(mappedBy = "question", orphanRemoval = true,fetch = FetchType.EAGER)
+    private List<Answer> answerList = new ArrayList<>();
 
     @Enumerated(EnumType.STRING)
     private Priority priority;

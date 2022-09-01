@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd5cb8b1-df73-4f49-b18c-dc92f9b1efff" name="Changes" comment="create hibernate.cfg.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/QuestionDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bd5cb8b1-df73-4f49-b18c-dc92f9b1efff" name="Changes" comment="create Question.java, Priority.java, QuestionDetail.java, Answer.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662059178982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="create Question.java, Priority.java, QuestionDetail.java, Answer.java">
+      <created>1662060441055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662060441056</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +90,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add hibernate and postgresql dependencies" />
     <MESSAGE value="create hibernate.cfg.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="create hibernate.cfg.xml" />
+    <MESSAGE value="create Question.java, Priority.java, QuestionDetail.java, Answer.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Question.java, Priority.java, QuestionDetail.java, Answer.java" />
   </component>
 </project>

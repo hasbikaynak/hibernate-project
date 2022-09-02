@@ -114,33 +114,28 @@ public class RunnerSave {
 
 
 
-        Configuration con=new  Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Question.class).addAnnotatedClass(QuestionDetail.class).addAnnotatedClass(Answer.class);
-        SessionFactory sf=con.buildSessionFactory();
-        Session session= sf.openSession();
-        Transaction tx= session.beginTransaction();
+        ConfigurationSessionTransaction.getConfiguration();
 
 
-        session.save(question1);
-        session.save(question2);
-        session.save(question3);
-        session.save(question4);
+        ConfigurationSessionTransaction.session.save(question1);
+        ConfigurationSessionTransaction.session.save(question2);
+        ConfigurationSessionTransaction.session.save(question3);
+        ConfigurationSessionTransaction.session.save(question4);
 
-        session.save(questionDetail1);
-        session.save(questionDetail2);
-        session.save(questionDetail3);
-        session.save(questionDetail4);
+        ConfigurationSessionTransaction.session.save(questionDetail1);
+        ConfigurationSessionTransaction.session.save(questionDetail2);
+        ConfigurationSessionTransaction.session.save(questionDetail3);
+        ConfigurationSessionTransaction.session.save(questionDetail4);
 
-        session.save(answer1);
-        session.save(answer2);
-        session.save(answer3);
-        session.save(answer4);
-        session.save(answer5);
-        session.save(answer6);
-        session.save(answer7);
-        session.save(answer8);
+        ConfigurationSessionTransaction.session.save(answer1);
+        ConfigurationSessionTransaction.session.save(answer2);
+        ConfigurationSessionTransaction.session.save(answer3);
+        ConfigurationSessionTransaction.session.save(answer4);
+        ConfigurationSessionTransaction.session.save(answer5);
+        ConfigurationSessionTransaction.session.save(answer6);
+        ConfigurationSessionTransaction.session.save(answer7);
+        ConfigurationSessionTransaction.session.save(answer8);
 
-        tx.commit();
-        session.close();
-        sf.close();
+        ConfigurationSessionTransaction.closeAll();
     }
 }

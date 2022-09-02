@@ -13,7 +13,7 @@ public class Question {
     @OneToOne(mappedBy = "question")
     private QuestionDetail questionDetail;
 
-    @OneToMany(mappedBy = "question", orphanRemoval = true,fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "question", orphanRemoval = true,fetch = FetchType.EAGER, cascade= CascadeType.ALL)
     private List<Answer> answerList = new ArrayList<>();
 
     @Enumerated(EnumType.STRING)

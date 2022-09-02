@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd5cb8b1-df73-4f49-b18c-dc92f9b1efff" name="Changes" comment="create Question.java, Priority.java, QuestionDetail.java, Answer.java">
+    <list default="true" id="bd5cb8b1-df73-4f49-b18c-dc92f9b1efff" name="Changes" comment="refactor Answer.java and mapping in Question.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/RunnerSave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QuestionDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QuestionDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="RunnerSave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunnerSave" />
+      <module name="HibernateProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunnerSave" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662060532050</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor Answer.java and mapping in Question.java">
+      <created>1662063358029</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662063358029</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +126,7 @@
     <MESSAGE value="add hibernate and postgresql dependencies" />
     <MESSAGE value="create hibernate.cfg.xml" />
     <MESSAGE value="create Question.java, Priority.java, QuestionDetail.java, Answer.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Question.java, Priority.java, QuestionDetail.java, Answer.java" />
+    <MESSAGE value="refactor Answer.java and mapping in Question.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor Answer.java and mapping in Question.java" />
   </component>
 </project>

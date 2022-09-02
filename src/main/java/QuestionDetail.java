@@ -1,5 +1,6 @@
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
 @Entity
@@ -11,6 +12,7 @@ public class QuestionDetail {
     private String description;
 
     @OneToOne
+    @JoinColumn(name = "question_id")
     private Question question;
 
     public int getId() {
@@ -27,6 +29,14 @@ public class QuestionDetail {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Question getQuestion() {
+        return question;
+    }
+
+    public void setQuestion(Question question) {
+        this.question = question;
     }
 
     @Override
